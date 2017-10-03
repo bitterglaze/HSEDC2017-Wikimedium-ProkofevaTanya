@@ -1,5 +1,12 @@
 body {
   font-family: 'PT Sans', 'Arial', sans-serif;
+  background-image: url(../images/backgroundimg.jpg);
+  background-size: 800px 20624px;
+  background-position: top center;
+  background-repeat: no-repeat;
+  width: 700px;
+  margin: 0 auto;
+  pedding-top
 }
 
 p {
@@ -9,9 +16,9 @@ p {
 }
 
 h1 {
-  color: red;
-  font-size: 30px;
-  line-height: 1.4px;
+
+  font-size: 45px;
+  line-height: 43px;
   text-decoration: uppercase;
 
 }
