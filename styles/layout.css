@@ -23,7 +23,21 @@ a, a:visited {
     top: 46px;
     left: 20px;
     width: 300px;
-    /*opacity: 1;*/
+    opacity: .1;
+    transition: opasity .1s ease;
+  }
+
+  .sidebar:hover {
+    opacity: 1;
+  }
+
+  .sidebar > ul {
+    padding: 15px 30px;
+  }
+
+  .sidebar > ul > li: first-child {
+    font-weight: bold;
+    margin-top: 10px;
   }
 
   .sidebar li {
@@ -33,15 +47,19 @@ a, a:visited {
     color: rgba(0, 0, 0, .8);
   }
 
-h1, h2, h3, p, ul, ol, blockquote {
+  .sidebar > ul > li > ul {
+     color: rgba(0,0,0,.4);
+   }
+
+article {
   width: 700px;
   margin: 0 auto;
 }
 
-img {
+article img {
   display: block;
   width: 1020px;
-  margin: 80px auto;
+  margin: 80px 0 80px -160px;
 }
 
 h1, h2, h3 {
@@ -61,7 +79,7 @@ h1 + p {
   line-height: 32px;
 }
 
-p, blockquote {
+p, blockquote, article ul {
   font-size: 22px;
   line-height: 34px;
 }
@@ -98,7 +116,7 @@ img + p {
   margin-top: -3px;
 }
 
-ul, ol {
+article ul, ol {
  font-size: 22px;
  margin: 29px auto;
  list-style-type: disc;
@@ -110,6 +128,7 @@ li {
 
 a {
     color: black;
+    text-decoration: none;
   }
 
 blockquote {

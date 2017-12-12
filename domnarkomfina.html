@@ -43,6 +43,7 @@
           <li><a href="#s6">Современное состояние памятника</a></li>
           <li><a href="#s7">Интересные факты о Доме Наркомфина</a></li>
         </ul>
+        </nav>
 
 
     <article>
@@ -183,7 +184,24 @@
 
 </article>
 
+<script type="text/javascript" src="javascripts/jquery-3.2.1.js"></script>
+<script type="text/javascript">
 
+$(function() {
+  $('.sidebar a').each(function() {
+    $(this).on('click', function(e) {
+      e.preventDefault();
+      var scrollTo = $(this).attr('href');
+      var whitespace = scrollTo == '#s1' ? 70 : 30
+      $('html,body').animate({
+        scrollTop: $(scrollTo).offset().top - whitespace
+      }, 1000);
+    });
+  });
+});
+
+
+  
+</script>
 </body>
 </html>
-]
