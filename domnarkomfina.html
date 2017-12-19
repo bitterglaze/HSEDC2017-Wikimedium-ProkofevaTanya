@@ -15,6 +15,16 @@
 
 
 <body>
+  <nav class="menubar">
+    <a href="" class="logo"></a>
+    <a href="" class="about">О проеке</a>
+
+  </nav>
+
+
+
+
+
     <nav class="sidebar">
         <ul>
           <li><a href="#s1">Дом Наркомфина</a></li>
@@ -32,21 +42,19 @@
           </li>
 
           <li>
-              <a href="#s5">Критика проекта</a></li>
+              <a href="#s5">Критика проекта</a>
 
               <ul>
-
-                  <li><a href="s5s1">С бытовой стороны</a></li>
+                 <li><a href="#s5s1">С бытовой стороны</a></li>
               </ul>
 
           </li>
           <li><a href="#s6">Современное состояние памятника</a></li>
           <li><a href="#s7">Интересные факты о Доме Наркомфина</a></li>
         </ul>
-        </nav>
+    </nav>
 
-
-    <article>
+<article>
   <h1 id="s1">Дом Наркомфина</h1>
   <p>Жилой дом переходного типа, построенный в 1930 году по проекту архитекторов Моисея Гинзбурга и Игнатия Милиниса для работников Народного комиссариата финансов СССР (Наркомфина). Находится в Москве на Новинском бульваре по адресу дом № 25, корпус 1. Дом Наркомфина является памятником архитектуры конструктивизма.</p>
   <p>Здание находится в аварийном состоянии и уже трижды включалось в список «100 главных зданий мира, которым грозит уничтожение».</p>
@@ -184,7 +192,7 @@
 
 </article>
 
-<script type="text/javascript" src="javascripts/jquery-3.2.1.js"></script>
+<script type="text/javascript" srs="javascripts/jquery-3.2.1.js"></script>
 <script type="text/javascript">
 
 $(function() {
@@ -194,13 +202,13 @@ $(function() {
       var scrollTo = $(this).attr('href');
       var whitespace = scrollTo == '#s1' ? 70 : 30
       $('html,body').animate({
-        scrollTop: $(scrollTo).offset().top - whitespace
+        scrollTop:$(scrollTo).offset().top - whitespace
       }, 1000);
     });
   });
 });
 
-
+</script>
 
 </script>
 </body>
