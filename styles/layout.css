@@ -11,6 +11,7 @@ body {
   padding-top: 66px;*/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-width: 320px;
 }
 
 
@@ -66,6 +67,7 @@ padding: 20px;
   opacity: .1;
   -webkit-transition: opacity .2s ease;
   transition: opacity .2s ease;
+  z-index: 1;
 
 }
 
@@ -103,8 +105,9 @@ padding: 20px;
 }
 
 .sidebar > ul > li > ul li:hover {
-    color: rgba (0,0,0,.6)
-};
+    color: rgba (0,0,0,.6);
+}
+
 
 
 article > ul {

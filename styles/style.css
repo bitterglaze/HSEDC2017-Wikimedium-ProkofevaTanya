@@ -2,3 +2,5 @@
 @import "https://fonts.googleapis.com/css?family=PT+Serif";
 @import "https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700&amp;subset=cyrillic";
 @import "layout.css";
+@import "gallery.css";
+@import "responsive.css";
