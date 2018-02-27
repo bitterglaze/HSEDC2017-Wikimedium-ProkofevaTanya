@@ -14,4 +14,42 @@
     width: 100%;
     padding: 0 20px;
   }
+
+    .galleryNav div::before, .galleryNav div::after {
+      background: #fff;
+    }
+
+
+.gallery {
+  margin-left: -20px;
+  width: calc(100% + 40px);
+
+}
+
+.galleryRail figure, .galleryRail img {
+  width: 100%;
+  min-width: 100%;
+}
+
+.postsFeed {
+  padding-top: 60px;
+}
+
+.postsFeed a {
+  width: calc(100% - 40px);
+}
+
+.postsFeed figure {
+  width: 100%;
+}
+
+.postsFeed h2 {
+  font-size: 24px;
+}
+
+.postsFeed p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
 }
