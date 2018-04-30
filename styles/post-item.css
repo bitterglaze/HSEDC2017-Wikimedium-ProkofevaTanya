@@ -122,9 +122,9 @@ article {
 }
 
  article img {
-  display: block;
-  width: 1020px;
-  /*поделили пополам 320 (1020-700px, из общего размера артикля)*/
+   display: block;
+   width: 1020px;
+   margin: 80px 0 80px -160px;
 }
 
 h1, h2, h3 {
